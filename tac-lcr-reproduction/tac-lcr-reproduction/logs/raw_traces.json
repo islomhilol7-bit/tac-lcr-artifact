@@ -1,0 +1,304 @@
+{
+  "validation_set": {
+    "surrogate_loss": [1.2, 0.8, 2.1, 0.4, 1.9, 0.7, 1.5, 0.3, 1.1, 0.9],
+    "target_logprob": [
+      -0.36, -0.24, -0.63, -0.12, -0.57, -0.21, -0.45, -0.09, -0.33, -0.27
+    ]
+  },
+  "tasks": {
+    "sympy__sympy-20590": {
+      "tac_lcr": [
+        {
+          "trial": 1,
+          "passed": true,
+          "hvc_min": 2.1,
+          "build_corruption": false
+        },
+        {
+          "trial": 2,
+          "passed": true,
+          "hvc_min": 3.0,
+          "build_corruption": false
+        },
+        {
+          "trial": 3,
+          "passed": true,
+          "hvc_min": 1.5,
+          "build_corruption": false
+        },
+        {
+          "trial": 4,
+          "passed": false,
+          "hvc_min": 4.5,
+          "build_corruption": false
+        },
+        {
+          "trial": 5,
+          "passed": true,
+          "hvc_min": 2.0,
+          "build_corruption": false
+        }
+      ],
+      "static_gate": [
+        {
+          "trial": 1,
+          "passed": false,
+          "hvc_min": 9.0,
+          "build_corruption": false
+        },
+        {
+          "trial": 2,
+          "passed": true,
+          "hvc_min": 12.0,
+          "build_corruption": false
+        },
+        {
+          "trial": 3,
+          "passed": false,
+          "hvc_min": 9.0,
+          "build_corruption": true
+        },
+        {
+          "trial": 4,
+          "passed": false,
+          "hvc_min": 9.0,
+          "build_corruption": false
+        },
+        {
+          "trial": 5,
+          "passed": false,
+          "hvc_min": 9.0,
+          "build_corruption": false
+        }
+      ],
+      "unconstrained": [
+        {
+          "trial": 1,
+          "passed": false,
+          "hvc_min": 0.0,
+          "build_corruption": true
+        },
+        {
+          "trial": 2,
+          "passed": false,
+          "hvc_min": 0.0,
+          "build_corruption": true
+        },
+        {
+          "trial": 3,
+          "passed": true,
+          "hvc_min": 0.0,
+          "build_corruption": false
+        },
+        {
+          "trial": 4,
+          "passed": false,
+          "hvc_min": 0.0,
+          "build_corruption": true
+        },
+        {
+          "trial": 5,
+          "passed": false,
+          "hvc_min": 0.0,
+          "build_corruption": true
+        }
+      ]
+    },
+    "django__django-11099": {
+      "tac_lcr": [
+        {
+          "trial": 1,
+          "passed": true,
+          "hvc_min": 1.8,
+          "build_corruption": false
+        },
+        {
+          "trial": 2,
+          "passed": true,
+          "hvc_min": 2.2,
+          "build_corruption": false
+        },
+        {
+          "trial": 3,
+          "passed": true,
+          "hvc_min": 1.2,
+          "build_corruption": false
+        },
+        {
+          "trial": 4,
+          "passed": true,
+          "hvc_min": 2.5,
+          "build_corruption": false
+        },
+        {
+          "trial": 5,
+          "passed": false,
+          "hvc_min": 3.8,
+          "build_corruption": false
+        }
+      ],
+      "static_gate": [
+        {
+          "trial": 1,
+          "passed": false,
+          "hvc_min": 8.5,
+          "build_corruption": false
+        },
+        {
+          "trial": 2,
+          "passed": false,
+          "hvc_min": 8.5,
+          "build_corruption": false
+        },
+        {
+          "trial": 3,
+          "passed": true,
+          "hvc_min": 11.0,
+          "build_corruption": false
+        },
+        {
+          "trial": 4,
+          "passed": false,
+          "hvc_min": 8.5,
+          "build_corruption": false
+        },
+        {
+          "trial": 5,
+          "passed": false,
+          "hvc_min": 8.5,
+          "build_corruption": false
+        }
+      ],
+      "unconstrained": [
+        {
+          "trial": 1,
+          "passed": false,
+          "hvc_min": 0.0,
+          "build_corruption": true
+        },
+        {
+          "trial": 2,
+          "passed": true,
+          "hvc_min": 0.0,
+          "build_corruption": false
+        },
+        {
+          "trial": 3,
+          "passed": false,
+          "hvc_min": 0.0,
+          "build_corruption": true
+        },
+        {
+          "trial": 4,
+          "passed": false,
+          "hvc_min": 0.0,
+          "build_corruption": true
+        },
+        {
+          "trial": 5,
+          "passed": false,
+          "hvc_min": 0.0,
+          "build_corruption": true
+        }
+      ]
+    },
+    "pytest-dev__pytest-7408": {
+      "tac_lcr": [
+        {
+          "trial": 1,
+          "passed": true,
+          "hvc_min": 2.0,
+          "build_corruption": false
+        },
+        {
+          "trial": 2,
+          "passed": true,
+          "hvc_min": 1.9,
+          "build_corruption": false
+        },
+        {
+          "trial": 3,
+          "passed": true,
+          "hvc_min": 2.4,
+          "build_corruption": false
+        },
+        {
+          "trial": 4,
+          "passed": true,
+          "hvc_min": 1.7,
+          "build_corruption": false
+        },
+        {
+          "trial": 5,
+          "passed": true,
+          "hvc_min": 2.1,
+          "build_corruption": false
+        }
+      ],
+      "static_gate": [
+        {
+          "trial": 1,
+          "passed": true,
+          "hvc_min": 10.0,
+          "build_corruption": false
+        },
+        {
+          "trial": 2,
+          "passed": false,
+          "hvc_min": 8.0,
+          "build_corruption": false
+        },
+        {
+          "trial": 3,
+          "passed": true,
+          "hvc_min": 9.5,
+          "build_corruption": false
+        },
+        {
+          "trial": 4,
+          "passed": false,
+          "hvc_min": 8.0,
+          "build_corruption": false
+        },
+        {
+          "trial": 5,
+          "passed": false,
+          "hvc_min": 8.0,
+          "build_corruption": false
+        }
+      ],
+      "unconstrained": [
+        {
+          "trial": 1,
+          "passed": true,
+          "hvc_min": 0.0,
+          "build_corruption": false
+        },
+        {
+          "trial": 2,
+          "passed": false,
+          "hvc_min": 0.0,
+          "build_corruption": true
+        },
+        {
+          "trial": 3,
+          "passed": false,
+          "hvc_min": 0.0,
+          "build_corruption": true
+        },
+        {
+          "trial": 4,
+          "passed": false,
+          "hvc_min": 0.0,
+          "build_corruption": true
+        },
+        {
+          "trial": 5,
+          "passed": false,
+          "hvc_min": 0.0,
+          "build_corruption": true
+        }
+      ]
+    }
+  }
+}
